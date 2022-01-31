@@ -1,4 +1,4 @@
-import random
+import random as rn
 
 a=[1,2,3,4,5,6]
-print(random.choice(a))
+print(rn.choice(a))
