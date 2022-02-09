@@ -5,6 +5,7 @@ def solution(A,B):
         sqrt=(int)(math.sqrt(i))
         if sqrt*(sqrt+1)==i:
             count+=1
+
     return count
 
 
