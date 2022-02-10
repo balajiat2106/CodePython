@@ -1,6 +1,6 @@
 def solution(A):
     lookup=[]*len(A)
-    count=0
+    
     for i in range(len(A)):
         if(A[i] not in lookup):
             if(A.count(A[i]))==A[i]:
