@@ -1,0 +1,15 @@
+def solution(A):
+    tempList=[]*3
+    tempList.append(max(A))
+    print(tempList)
+    A.remove(max(A))
+    print(A)
+    tempList.append(max(A))
+    print(tempList)
+    A.remove(max(A))
+    print(A)
+    tempList.append(max(A))
+    print(tempList)
+    A.remove(max(A))
+    print(A)
+print(solution([-3,1,2,-2,5,6]))
