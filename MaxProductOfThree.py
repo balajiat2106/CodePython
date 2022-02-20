@@ -13,4 +13,4 @@ def solution(A):
     
     resProduct=reduce((lambda x,y:x*y),tempList)
     return resProduct
-print(solution([-3,1,2,-2,5,6]))
+print(solution([-3,1,2,-2,5,8]))
